@@ -1,0 +1,199 @@
+.project-home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+}
+
+.project-header {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.back-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.project-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.project-header p {
+  margin: 0.5rem 0 0 0;
+  opacity: 0.9;
+}
+
+.phases-timeline {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+.phase-item {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #ddd;
+}
+
+.phase-item:hover:not(.completed) {
+  transform: translateX(8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-left-color: #667eea;
+}
+
+.phase-item.current {
+  border-left-color: #667eea;
+  background: linear-gradient(to right, #f0f4ff, white);
+}
+
+.phase-item.completed {
+  opacity: 0.7;
+  border-left-color: #4caf50;
+}
+
+.phase-icon {
+  font-size: 2rem;
+  min-width: 50px;
+}
+
+.phase-info {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phase-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.phase-num {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.optional-badge {
+  background: #fff3cd;
+  color: #856404;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.completed-badge {
+  background: #d4edda;
+  color: #155724;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.phase-description {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.phase-description h2 {
+  color: white;
+  margin: 2rem 0 1rem;
+}
+
+.description-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.description-card h3 {
+  margin-top: 0;
+  color: #667eea;
+  font-size: 1.3rem;
+}
+
+.description-card p {
+  color: #666;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
+
+.loading,
+.error {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  color: #333;
+}
+
+.error {
+  background: #fee;
+  color: #c33;
+}
+
+@media (max-width: 768px) {
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .phase-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .optional-badge,
+  .completed-badge {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}

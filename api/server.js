@@ -5,6 +5,12 @@ require('dotenv').config();
 
 const campaignsRouter = require('./routes/campaigns');
 const researchRouter = require('./routes/research');
+const projectsRouter = require('./routes/projects');
+const materialsRouter = require('./routes/materials');
+const analysisRouter = require('./routes/analysis');
+const copyRouter = require('./routes/copy');
+const promptsRouter = require('./routes/prompts');
+const assetsRouter = require('./routes/assets');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -15,6 +21,15 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../dashboard/build')));
 
 // API Routes
+// New workflow routes
+app.use('/api/projects', projectsRouter);
+app.use('/api/materials', materialsRouter);
+app.use('/api/analysis', analysisRouter);
+app.use('/api/copy', copyRouter);
+app.use('/api/prompts', promptsRouter);
+app.use('/api/assets', assetsRouter);
+
+// Legacy routes
 app.use('/api/campaigns', campaignsRouter);
 app.use('/api/research', researchRouter);
 
