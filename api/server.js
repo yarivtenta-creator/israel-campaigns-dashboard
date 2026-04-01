@@ -28,7 +28,8 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../dashboard/build')));
+// Note: React dashboard is deployed separately on Vercel, not served from this API server
+// app.use(express.static(path.join(__dirname, '../dashboard/build')));
 
 // API Routes
 // New workflow routes
@@ -48,10 +49,11 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// Serve React app
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dashboard/build/index.html'));
-});
+// Note: React app is served separately from Vercel, not from this API server
+// Removed static file serving since API and frontend are deployed independently
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, '../dashboard/build/index.html'));
+// });
 
 app.listen(PORT, () => {
   console.log(`✅ Dashboard server running on http://localhost:${PORT}`);
