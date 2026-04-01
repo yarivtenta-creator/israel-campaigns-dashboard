@@ -1,0 +1,41 @@
+{
+  "type": "competitive_analysis",
+  "timestamp": "2026-04-01T06:09:26.965Z",
+  "topic": "teachers, school principals, education staff, israel, age 28-60, interests in education, ministry of education, experiential learning, 21st century skills, school management, teaching methods, educational leadership, parenting teenagers, entrepreneurship education, financial education, startup nation, high tech, creative thinking, public speaking, youth development, sel social emotional learning, innovation in education",
+  "competitors": {
+    "https://mosdot.education.gov.il/students/at-risk/shachar/emotional-empowerment/": {
+      "positioning": "Competitor positioning",
+      "targetAudience": "Target audience segment",
+      "messagingThemes": [
+        "Theme 1",
+        "Theme 2",
+        "Theme 3"
+      ],
+      "primaryCta": "Common CTA",
+      "estimatedMonthlyBudget": "₪Unknown",
+      "targetLanguage": "Hebrew/English",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ],
+      "sampleAds": 10,
+      "messagingAngle": "Primary message angle"
+    }
+  },
+  "crossPlatformInsights": {
+    "mostCommonCta": "Common CTA",
+    "mostCommonMessagingAngle": "Theme 1",
+    "languageStrategy": "Identify Hebrew vs. English focus",
+    "commonTargeting": [
+      "Target audience segment"
+    ],
+    "creativeStyleDominant": "Professional / Minimalist",
+    "gapsIdentified": [
+      "Lack of emphasis on customer support and success",
+      "No focus on ease of adoption and onboarding",
+      "Limited local (Israeli) success stories and case studies",
+      "No messaging around training and professional development",
+      "Minimal focus on ROI and business impact"
+    ]
+  }
+}

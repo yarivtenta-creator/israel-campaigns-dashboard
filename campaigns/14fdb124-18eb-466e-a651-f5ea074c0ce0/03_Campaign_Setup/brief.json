@@ -1,0 +1,191 @@
+{
+  "campaign_brief": {
+    "metadata": {
+      "topic": "Research-derived campaign",
+      "description": "Generated from research: research_7cfcd20a",
+      "sector": "General",
+      "created_date": "2026-04-01T05:49:32.328Z",
+      "language": "English + Hebrew",
+      "campaign_objective": "Position as the solution that addresses primary pain points"
+    },
+    "keywords": {
+      "primary": [
+        {
+          "english": "Create case study from local success story",
+          "hebrew": "Create case study from local success story",
+          "hebrew_phonetic": "",
+          "search_intent": "decision",
+          "priority": "high"
+        },
+        {
+          "english": "Test primary message angle",
+          "hebrew": "Test primary message angle",
+          "hebrew_phonetic": "",
+          "search_intent": "decision",
+          "priority": "medium"
+        },
+        {
+          "english": "Emphasize ease and support in all copy",
+          "hebrew": "Emphasize ease and support in all copy",
+          "hebrew_phonetic": "",
+          "search_intent": "decision",
+          "priority": "low"
+        }
+      ],
+      "longtail": [
+        {
+          "english": "Time constraints are primary barrier to technology adoption",
+          "hebrew": "Time constraints are primary barrier to technology adoption"
+        },
+        {
+          "english": "Training and support are critical for successful adoption",
+          "hebrew": "Training and support are critical for successful adoption"
+        },
+        {
+          "english": "Students report improved engagement with digital tools",
+          "hebrew": "Students report improved engagement with digital tools"
+        }
+      ],
+      "negative_keywords": []
+    },
+    "audience_targeting": {
+      "core_segment": {
+        "description": "Early adopter teachers (tech-forward, innovation seeking)",
+        "estimated_reach": "100,000 - 500,000"
+      },
+      "lookalike_audiences": [],
+      "exclusions": []
+    },
+    "ad_copy_variants": [
+      {
+        "variant_id": 1,
+        "angle": "pain-point",
+        "funnel_stage": "awareness",
+        "english": {
+          "headline": "Time constraints are primary barrier to technology adoption - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Time constraints are primary barrier to technology adoption",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Time constraints are primary barrier to technology adoption - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      },
+      {
+        "variant_id": 2,
+        "angle": "solution",
+        "funnel_stage": "consideration",
+        "english": {
+          "headline": "Provide clear solution - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Provide clear solution",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Provide clear solution - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      },
+      {
+        "variant_id": 3,
+        "angle": "social-proof",
+        "funnel_stage": "decision",
+        "english": {
+          "headline": "Common CTA - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Common CTA",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Common CTA - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      },
+      {
+        "variant_id": 4,
+        "angle": "urgency",
+        "funnel_stage": "awareness",
+        "english": {
+          "headline": "Create time-sensitive value - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Create time-sensitive value",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Create time-sensitive value - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      },
+      {
+        "variant_id": 5,
+        "angle": "value",
+        "funnel_stage": "consideration",
+        "english": {
+          "headline": "Hybrid and blended learning becoming standard - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Hybrid and blended learning becoming standard",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Hybrid and blended learning becoming standard - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      },
+      {
+        "variant_id": 6,
+        "angle": "ease",
+        "funnel_stage": "decision",
+        "english": {
+          "headline": "Simplify the process - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Simplify the process",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Simplify the process - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      },
+      {
+        "variant_id": 7,
+        "angle": "success-stories",
+        "funnel_stage": "awareness",
+        "english": {
+          "headline": "Share success examples - Discover More",
+          "body": "Our solution helps address your needs. Learn why thousands trust us. Share success examples",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "Share success examples - גלה עוד",
+          "body": "הפתרון שלנו עוזר לטיפול בצרכים שלך. דע למה אלפים סומכים עלינו.",
+          "cta": "גלה עוד"
+        }
+      }
+    ],
+    "bid_strategy": {
+      "recommendation": "CPC",
+      "daily_budget_ils": "₪200-500",
+      "daily_budget_usd": "$50-150",
+      "frequency_cap": "3 per day",
+      "retargeting_window": "30 days"
+    },
+    "whatsapp_strategy": {
+      "trigger": "Click on ad",
+      "sequence": [
+        {
+          "day": 0,
+          "message_english": "Thanks for your interest! Here's what you should know...",
+          "message_hebrew": "תודה על העניין! הנה מה שאתה צריך לדעת...",
+          "cta": "Learn More"
+        },
+        {
+          "day": 2,
+          "message_english": "Many like you have found success. Want to see how?",
+          "message_hebrew": "רבים כמוך מצאו הצלחה. רוצה לראות איך?",
+          "cta": "Show Me"
+        }
+      ]
+    }
+  }
+}

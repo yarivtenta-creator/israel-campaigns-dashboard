@@ -1,0 +1,41 @@
+{
+  "type": "competitive_analysis",
+  "timestamp": "2026-04-01T02:16:54.470Z",
+  "topic": "מטפל חברתי רגשי ",
+  "competitors": {
+    "https://regesh.co.il/therapists/": {
+      "positioning": "Competitor positioning",
+      "targetAudience": "Target audience segment",
+      "messagingThemes": [
+        "Theme 1",
+        "Theme 2",
+        "Theme 3"
+      ],
+      "primaryCta": "Common CTA",
+      "estimatedMonthlyBudget": "₪Unknown",
+      "targetLanguage": "Hebrew/English",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ],
+      "sampleAds": 10,
+      "messagingAngle": "Primary message angle"
+    }
+  },
+  "crossPlatformInsights": {
+    "mostCommonCta": "Common CTA",
+    "mostCommonMessagingAngle": "Theme 1",
+    "languageStrategy": "Identify Hebrew vs. English focus",
+    "commonTargeting": [
+      "Target audience segment"
+    ],
+    "creativeStyleDominant": "Professional / Minimalist",
+    "gapsIdentified": [
+      "Lack of emphasis on customer support and success",
+      "No focus on ease of adoption and onboarding",
+      "Limited local (Israeli) success stories and case studies",
+      "No messaging around training and professional development",
+      "Minimal focus on ROI and business impact"
+    ]
+  }
+}

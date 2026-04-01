@@ -1,0 +1,68 @@
+{
+  "campaign_brief": {
+    "metadata": {
+      "topic": "גיל: 28–60 מיקום: ישראל Interests: חינוך מנהלי בתי ספר משרד החינוך הורות למתבגרים",
+      "description": "סקירת התוכנית:\n\nשם: ממריאים לעסקים.\n\nתיאור: תוכנית ייחודית לפיתוח יזמות, עסקים ויצירתיות לנוער.\n\nפרטי התקשרות: 052-3861717 | takeheed.co.il\n\nנקודות מפתח:\n\nהצורך: פיתוח חשיבה יזמית, כלים מעשיים להקמת עסק, וחיזוק הביטחון העצמי.\n\nהערך לתלמיד: בניית מיזם מאפס, ניהול פיננסי, שיווק, ופיצ'ינג (עמידה מול קהל).\n\nהערך לבית הספר: מיתוג חדשני, מענה למיומנויות SEL, וקשר עם התעשייה.\n\nמבנה: סדנאות שבועיות, ליווי מנטורים, ואירוע שיא \"דמו-דיי\".\n\nהצוות המקצועי:\n\nפנחס ולדר (מייסד), יניב ביטון (שיווק), יצחק גולדשטיין (פיננסים), אופיר זיוון (פדגוגיה), ועוד צוות מנטורים רחב מעולמות ה-UX, מכירות, וטכנולוגיה.",
+      "sector": "General",
+      "created_date": "2026-04-01T06:45:04.394Z",
+      "language": "English + Hebrew",
+      "campaign_objective": "Lead generation and audience engagement"
+    },
+    "keywords": {
+      "primary": [
+        {
+          "english": "sample keyword",
+          "hebrew": "דוגמה מילה",
+          "hebrew_phonetic": "dugma mila",
+          "search_intent": "awareness",
+          "priority": "high"
+        }
+      ],
+      "longtail": [],
+      "negative_keywords": []
+    },
+    "audience_targeting": {
+      "core_segment": {
+        "description": "Target audience based on provided criteria",
+        "estimated_reach": "150,000-250,000"
+      },
+      "lookalike_audiences": [],
+      "exclusions": []
+    },
+    "ad_copy_variants": [
+      {
+        "variant_id": 1,
+        "angle": "awareness",
+        "funnel_stage": "awareness",
+        "english": {
+          "headline": "Discover New Opportunities",
+          "body": "Learn about relevant solutions for your audience.",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "גלה הזדמנויות חדשות",
+          "body": "למד על פתרונות רלוונטיים לקהל שלך.",
+          "cta": "למידע נוסף"
+        }
+      }
+    ],
+    "bid_strategy": {
+      "recommendation": "CPC",
+      "daily_budget_ils": "500-1500",
+      "daily_budget_usd": "140-410",
+      "frequency_cap": "3 per day",
+      "retargeting_window": "14 days"
+    },
+    "whatsapp_strategy": {
+      "trigger": "Lead form submission",
+      "sequence": [
+        {
+          "day": 0,
+          "message_english": "Thank you for your interest!",
+          "message_hebrew": "תודה על העניין שלך!",
+          "cta": "View Details"
+        }
+      ]
+    }
+  }
+}

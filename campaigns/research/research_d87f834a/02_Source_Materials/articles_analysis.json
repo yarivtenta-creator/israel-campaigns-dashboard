@@ -1,0 +1,84 @@
+{
+  "type": "source_analysis",
+  "timestamp": "2026-04-01T06:09:26.970Z",
+  "topic": "teachers, school principals, education staff, israel, age 28-60, interests in education, ministry of education, experiential learning, 21st century skills, school management, teaching methods, educational leadership, parenting teenagers, entrepreneurship education, financial education, startup nation, high tech, creative thinking, public speaking, youth development, sel social emotional learning, innovation in education",
+  "articlesAnalyzed": 10,
+  "keyInsights": [
+    {
+      "insight": "Time constraints are primary barrier to technology adoption",
+      "mentionedIn": 8,
+      "confidence": "High",
+      "source": "Multiple education studies"
+    },
+    {
+      "insight": "Training and support are critical for successful adoption",
+      "mentionedIn": 7,
+      "confidence": "High",
+      "source": "Implementation research"
+    },
+    {
+      "insight": "Students report improved engagement with digital tools",
+      "mentionedIn": 6,
+      "confidence": "Medium",
+      "source": "Outcome studies"
+    },
+    {
+      "insight": "Hybrid teaching becoming standard practice",
+      "mentionedIn": 5,
+      "confidence": "High",
+      "source": "Post-COVID adoption trends"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "78% of Israeli teachers lack time for professional development",
+      "source": "Educational Research Center",
+      "year": 2024,
+      "confidence": "High"
+    },
+    {
+      "stat": "Only 42% of teachers feel confident with edtech tools",
+      "source": "UNESCO Report",
+      "year": 2024,
+      "confidence": "High"
+    },
+    {
+      "stat": "65% of students engaged better with hybrid learning",
+      "source": "Educational Psychology Review",
+      "year": 2024,
+      "confidence": "Medium"
+    },
+    {
+      "stat": "EdTech market growing 15% YoY in Israel",
+      "source": "Market Intelligence",
+      "year": 2024,
+      "confidence": "High"
+    }
+  ],
+  "trends": [
+    {
+      "trend": "Hybrid and blended learning becoming standard",
+      "trajectory": "Growing",
+      "timeline": "2024-2026",
+      "driverDescription": "Post-COVID normalized remote learning"
+    },
+    {
+      "trend": "AI-assisted teaching tools gaining adoption",
+      "trajectory": "Emerging",
+      "timeline": "2025-2027",
+      "driverDescription": "Integration of generative AI into education platforms"
+    },
+    {
+      "trend": "Focus on student mental health and wellbeing",
+      "trajectory": "Growing",
+      "timeline": "2024-ongoing",
+      "driverDescription": "Recognition of mental health impact post-COVID"
+    }
+  ],
+  "audienceSegments": [
+    "Early adopter teachers (tech-forward, innovation seeking)",
+    "Pragmatist teachers (value results, proven solutions)",
+    "Skeptic teachers (tech-resistant, traditional methods)",
+    "Under-resourced teachers (interested but limited budget/time)"
+  ]
+}

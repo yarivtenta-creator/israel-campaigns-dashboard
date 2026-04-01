@@ -1,0 +1,41 @@
+{
+  "type": "competitive_analysis",
+  "timestamp": "2026-04-01T05:02:30.227Z",
+  "topic": "Gemini said\nTo get the best results for your Facebook campaign, you need to use keywords that resonate with the Israeli educational system (Gefen/Ministry of Education) and the \"Startup Nation\" culture that parents value.\n\nHere are the search terms and keywords categorized by your target audience:\n\n1. Professional & Educational (For Principals/Schools)\nThese terms are crucial if you are trying to get the program into schools through official channels like the Gefen (גפ\"ן) system.\n\nתוכנית גפ\"ן (Gefen Program - the official Ministry of Education catalog)\n\nלמידה חווייתית (Experiential Learning)\n\nמיומנויות המאה ה-21 (21st Century Skills)\n\nחינוך ליזמות (Entrepreneurship Education)\n\nכישורי חיים (SEL) (Life Skills / Social-Emotional Learning)\n\nחדשנות בחינוך (Innovation in Education)\n\nסדנאות העשרה לבתי ספר (Enrichment workshops for schools)\n\n2. Parental & Aspirational (For Parents/Teens)\nThese terms trigger the desire for parents to give their children a head start in life and the military (especially units like 8200).\n\nיזמים צעירים (Young Entrepreneurs)\n\nחינוך פיננסי לנוער (Financial Education for Youth)\n\nפיתוח מנהיגות (Leadership Development)\n\nחוג יזמות (Entrepreneurship Club/After-school activity)\n\nעמידה מול קהל (Public Speaking)\n\nביטחון עצמי לנוער (Self-confidence for youth)\n\nהקמת סטארטאפ (Starting a Startup)\n\n3. Business & Technical (For Meta Ad Targeting)\nWhen setting up your Facebook \"Detailed Targeting,\" use these Hebrew/English interests:\n\nניהול פיננסי (Financial Management)\n\nשיווק ומכירות (Marketing and Sales)\n\nחשיבה יצירתית (Creative Thinking)\n\nStartup Nation\n\nHigh-tech (הייטק)\n\nParenting teenagers (הורות למתבגרים)",
+  "competitors": {
+    "https://mosdot.education.gov.il/students/at-risk/shachar/emotional-empowerment/": {
+      "positioning": "Competitor positioning",
+      "targetAudience": "Target audience segment",
+      "messagingThemes": [
+        "Theme 1",
+        "Theme 2",
+        "Theme 3"
+      ],
+      "primaryCta": "Common CTA",
+      "estimatedMonthlyBudget": "₪Unknown",
+      "targetLanguage": "Hebrew/English",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ],
+      "sampleAds": 10,
+      "messagingAngle": "Primary message angle"
+    }
+  },
+  "crossPlatformInsights": {
+    "mostCommonCta": "Common CTA",
+    "mostCommonMessagingAngle": "Theme 1",
+    "languageStrategy": "Identify Hebrew vs. English focus",
+    "commonTargeting": [
+      "Target audience segment"
+    ],
+    "creativeStyleDominant": "Professional / Minimalist",
+    "gapsIdentified": [
+      "Lack of emphasis on customer support and success",
+      "No focus on ease of adoption and onboarding",
+      "Limited local (Israeli) success stories and case studies",
+      "No messaging around training and professional development",
+      "Minimal focus on ROI and business impact"
+    ]
+  }
+}

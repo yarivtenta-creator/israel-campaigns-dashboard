@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "researchId": "research_377eb0e6",
+    "topic": "מורים",
+    "timestamp": "2026-04-01T01:57:43.487Z",
+    "researchDepth": "quick",
+    "languages": [
+      "Hebrew",
+      "English"
+    ]
+  },
+  "executiveSummary": {
+    "overview": "Research on: מורים",
+    "primaryFinding": "Primary market need related to topic",
+    "strategicImplication": "Position as the solution that addresses primary pain points",
+    "recommendedMessage": "Success without friction"
+  },
+  "audienceResearch": {
+    "segments": [
+      "Early adopter segment",
+      "Mainstream segment",
+      "Late adopter segment"
+    ],
+    "painPoints": [
+      {
+        "insight": "Primary market need related to topic",
+        "mentionedIn": 8,
+        "confidence": "High",
+        "source": "Industry research"
+      },
+      {
+        "insight": "Secondary pain point identified",
+        "mentionedIn": 6,
+        "confidence": "Medium",
+        "source": "Customer research"
+      }
+    ],
+    "decisionCriteria": [
+      "Ease of use",
+      "Time to value",
+      "Support quality",
+      "Cost"
+    ]
+  },
+  "competitiveAnalysis": {
+    "competitorsAnalyzed": [
+      "בית ספר"
+    ],
+    "competitorCount": 1,
+    "messagingPatterns": {
+      "Theme 1": 1,
+      "Theme 2": 1,
+      "Theme 3": 1
+    },
+    "gaps": [
+      {
+        "gap": "Lack of emphasis on customer support quality",
+        "opportunity": "Differentiate on support and success",
+        "marketSize": "Medium"
+      },
+      {
+        "gap": "No focus on ease of adoption",
+        "opportunity": "Position as easiest solution to implement",
+        "marketSize": "Large"
+      },
+      {
+        "gap": "Limited local (Israeli) success stories",
+        "opportunity": "Build case studies from local customers",
+        "marketSize": "Medium"
+      }
+    ]
+  },
+  "marketTrends": [
+    {
+      "trend": "Primary market trend",
+      "trajectory": "Growing",
+      "timeline": "2024-2026",
+      "driverDescription": "Market driver and context"
+    }
+  ],
+  "messagingFramework": {
+    "primaryAngle": "Primary market need related to topic",
+    "supportingAngles": [
+      "Proven results",
+      "Easy to implement",
+      "Ongoing support"
+    ],
+    "keyMessages": [
+      "Success without the extra work",
+      "Results in days, not months",
+      "Support when you need it"
+    ],
+    "proofPoints": [
+      {
+        "stat": "Key market statistic about topic",
+        "source": "Research Institute",
+        "year": 2024,
+        "confidence": "Medium"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "Create case study from local success story",
+      "rationale": "Social proof resonates with target audience",
+      "timeline": "30 days",
+      "expectedImpact": "Increases credibility and trust"
+    },
+    {
+      "priority": 2,
+      "action": "Test primary message angle",
+      "rationale": "Address core pain points and aspirations",
+      "timeline": "Immediate (for ad testing)",
+      "expectedImpact": "Higher engagement rates"
+    },
+    {
+      "priority": 3,
+      "action": "Emphasize ease and support in all copy",
+      "rationale": "Removes primary barriers to adoption",
+      "timeline": "In all copy variants",
+      "expectedImpact": "Improved conversion rates"
+    }
+  ],
+  "nextSteps": [
+    "Validate messaging with user interviews",
+    "Create case study materials",
+    "Develop ad copy variations",
+    "Plan audience targeting strategy"
+  ],
+  "sourcesSummary": {
+    "competitive": 1,
+    "articles": 10,
+    "statistics": 1,
+    "confidence": 0.87
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "type": "synthesized_insights",
+  "timestamp": "2026-04-01T01:57:43.493Z",
+  "primaryInsight": "Primary market need related to topic",
+  "competitiveDifferentiation": {
+    "ourAngle": "Ease of adoption and user experience",
+    "competitorAngle": "Features and capabilities",
+    "gapIdentified": "Nobody emphasizes support and adoption ease",
+    "differentiationStrength": "High"
+  },
+  "audienceSummary": {
+    "primarySegment": "Early adopter segment",
+    "painPointsRanked": [
+      {
+        "insight": "Primary market need related to topic",
+        "mentionedIn": 8,
+        "confidence": "High",
+        "source": "Industry research"
+      },
+      {
+        "insight": "Secondary pain point identified",
+        "mentionedIn": 6,
+        "confidence": "Medium",
+        "source": "Customer research"
+      }
+    ],
+    "decisionCriteria": [
+      "Ease of use",
+      "Time to value",
+      "Support quality",
+      "Cost"
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "Create case study from local success story",
+      "rationale": "Social proof resonates with target audience",
+      "timeline": "30 days",
+      "expectedImpact": "Increases credibility and trust"
+    },
+    {
+      "priority": 2,
+      "action": "Test primary message angle",
+      "rationale": "Address core pain points and aspirations",
+      "timeline": "Immediate (for ad testing)",
+      "expectedImpact": "Higher engagement rates"
+    },
+    {
+      "priority": 3,
+      "action": "Emphasize ease and support in all copy",
+      "rationale": "Removes primary barriers to adoption",
+      "timeline": "In all copy variants",
+      "expectedImpact": "Improved conversion rates"
+    }
+  ],
+  "marketOpportunities": [
+    {
+      "opportunity": "Primary market trend",
+      "size": "To be determined",
+      "competition": "Medium",
+      "timing": "2024-2026"
+    }
+  ],
+  "confidence": 0.87,
+  "sourced": {
+    "competitive": 1,
+    "articles": 10,
+    "statistics": 1
+  }
+}

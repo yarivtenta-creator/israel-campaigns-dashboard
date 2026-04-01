@@ -1,0 +1,41 @@
+{
+  "type": "source_analysis",
+  "timestamp": "2026-04-01T01:57:43.492Z",
+  "topic": "מורים",
+  "articlesAnalyzed": 10,
+  "keyInsights": [
+    {
+      "insight": "Primary market need related to topic",
+      "mentionedIn": 8,
+      "confidence": "High",
+      "source": "Industry research"
+    },
+    {
+      "insight": "Secondary pain point identified",
+      "mentionedIn": 6,
+      "confidence": "Medium",
+      "source": "Customer research"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "Key market statistic about topic",
+      "source": "Research Institute",
+      "year": 2024,
+      "confidence": "Medium"
+    }
+  ],
+  "trends": [
+    {
+      "trend": "Primary market trend",
+      "trajectory": "Growing",
+      "timeline": "2024-2026",
+      "driverDescription": "Market driver and context"
+    }
+  ],
+  "audienceSegments": [
+    "Early adopter segment",
+    "Mainstream segment",
+    "Late adopter segment"
+  ]
+}

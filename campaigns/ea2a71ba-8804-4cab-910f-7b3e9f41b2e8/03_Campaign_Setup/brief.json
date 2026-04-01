@@ -1,0 +1,68 @@
+{
+  "campaign_brief": {
+    "metadata": {
+      "topic": "גיל: 28–60 מיקום: ישראל Interests: חינוך מנהלי בתי ספר משרד החינוך הורות למתבגרים",
+      "description": "Primary Text:\nאין לכם זמן להכניס עוד תוכנית לבית הספר?\n\nפיתחנו תוכנית יזמות שעובדת בלי להעמיס על הצוות.\n\n✔ סדנאות חווייתיות מוכנות\n✔ ליווי מלא לאורך כל הדרך\n✔ תוצאות אמיתיות אצל תלמידים\n\nתוכנית \"ממריאים לעסקים\" מכניסה יזמות, ביטחון עצמי וכלים לחיים — בלי כאב ראש.\n\nHeadline:\nתוכנית יזמות שעובדת בלי עומס\n\nCTA:\nשלחו הודעה עכשיו\n\n2️⃣ Ad Set: תוצאות לתלמידים\n\nAudience:\n\nהורים + אנשי חינוך\nInterests:\nחינוך פיננסי\nיזמות\nסטארטאפים\nביטחון עצמי לנוער\nAd Copy:\n\nPrimary Text:\nמה אם התלמידים שלכם היו יוצאים עם עסק אמיתי?\n\nבתוכנית \"ממריאים לעסקים\" הם:\n\n✔ מפתחים רעיון למיזם\n✔ לומדים שיווק ומכירות\n✔ עומדים מול קהל ומציגים\n\nומסיימים עם \"דמו דיי\" אמיתי.\n\nזה לא עוד שיעור — זו חוויה שמשנה ביטחון עצמי.\n\nHeadline:\nמיזם אמיתי מהרעיון לביצוע\n\nCTA:\nקבלו פרטים בוואטסאפ\n\n3️⃣ Ad Set: מיתוג בית ספר (מנהלים בלבד)\n\nAudience:\n\nמנהלי בתי ספר\nיועצים חינוכיים\nמנהלי תוכניות\nAd Copy:\n\nPrimary Text:\nרוצים למצב את בית הספר שלכם כחדשני?\n\nתוכנית \"ממריאים לעסקים\" מביאה:\n\n✔ יזמות + מיומנויות המאה ה־21\n✔ מענה ל-SEL\n✔ חיבור לעולם האמיתי\n\nכולל ליווי מנטורים מהתעשייה.\n\nHeadline:\nכך בתי ספר מובילים נראים היום\n\nCTA:\nדברו איתנו\n\n🎬 CREATIVE DIRECTION (CRITICAL)\nVideo 1 (15 sec – BEST PERFORMER)\n\nHook (0–3s):\nאין לכם זמן לעוד תוכנית בבית הספר?\n\nMiddle (3–10s):\nויזואל:\n\nתלמידים עובדים בצוות\nקטע פיצ'ינג\nמסך \"דמו דיי\"\n\nטקסט:\n\"אנחנו עושים הכל — אתם רק מפעילים\"\n\nEnd (10–15s):\nלוגו +\nשלחו הודעה עכשיו\n\nVideo 2 (Social Proof Style)\n\nHook:\n\"תלמידים שלא האמינו בעצמם — מציגים מול קהל\"\n\nMiddle:\nBefore/After feeling\n\nEnd:\nממריאים לעסקים",
+      "sector": "General",
+      "created_date": "2026-04-01T05:17:51.650Z",
+      "language": "English + Hebrew",
+      "campaign_objective": "Lead generation and audience engagement"
+    },
+    "keywords": {
+      "primary": [
+        {
+          "english": "sample keyword",
+          "hebrew": "דוגמה מילה",
+          "hebrew_phonetic": "dugma mila",
+          "search_intent": "awareness",
+          "priority": "high"
+        }
+      ],
+      "longtail": [],
+      "negative_keywords": []
+    },
+    "audience_targeting": {
+      "core_segment": {
+        "description": "Target audience based on provided criteria",
+        "estimated_reach": "150,000-250,000"
+      },
+      "lookalike_audiences": [],
+      "exclusions": []
+    },
+    "ad_copy_variants": [
+      {
+        "variant_id": 1,
+        "angle": "awareness",
+        "funnel_stage": "awareness",
+        "english": {
+          "headline": "Discover New Opportunities",
+          "body": "Learn about relevant solutions for your audience.",
+          "cta": "Learn More"
+        },
+        "hebrew": {
+          "headline": "גלה הזדמנויות חדשות",
+          "body": "למד על פתרונות רלוונטיים לקהל שלך.",
+          "cta": "למידע נוסף"
+        }
+      }
+    ],
+    "bid_strategy": {
+      "recommendation": "CPC",
+      "daily_budget_ils": "500-1500",
+      "daily_budget_usd": "140-410",
+      "frequency_cap": "3 per day",
+      "retargeting_window": "14 days"
+    },
+    "whatsapp_strategy": {
+      "trigger": "Lead form submission",
+      "sequence": [
+        {
+          "day": 0,
+          "message_english": "Thank you for your interest!",
+          "message_hebrew": "תודה על העניין שלך!",
+          "cta": "View Details"
+        }
+      ]
+    }
+  }
+}
