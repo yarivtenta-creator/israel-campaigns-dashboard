@@ -1,3 +1,13 @@
+// Polyfill for Node.js - define File class stub used by unidici
+if (typeof global.File === 'undefined') {
+  global.File = class File {
+    constructor(bits, filename, options = {}) {
+      this.name = filename;
+      this.type = options.type || '';
+    }
+  };
+}
+
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
