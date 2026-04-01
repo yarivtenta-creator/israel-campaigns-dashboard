@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "cd dashboard && npm install --legacy-peer-deps && CI=false npm run build",
+  "installCommand": "true",
+  "outputDirectory": "dashboard/build",
+  "env": {
+    "CI": "false"
+  },
+  "regions": ["iad1"]
+}

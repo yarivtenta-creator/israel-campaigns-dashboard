@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.env
+.git
+.gitignore
+README.md
+test_api_key.js
+test-claude.js
+start-with-key.sh

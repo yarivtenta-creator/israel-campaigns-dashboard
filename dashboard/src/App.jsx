@@ -13,6 +13,10 @@ import AdGenerator from './pages/AdGenerator';
 import ProjectHome from './pages/ProjectHome';
 import AddMaterials from './pages/AddMaterials';
 import AnalyzeMaterials from './pages/AnalyzeMaterials';
+import CampaignSetup from './pages/CampaignSetup';
+import GenerateCopy from './pages/GenerateCopy';
+import ImagePrompts from './pages/ImagePrompts';
+import GenerateAssets from './pages/GenerateAssets';
 
 function App() {
   return (
@@ -32,7 +36,10 @@ function App() {
         <Route path="/project/:projectId/phase/1" element={<AddMaterials />} />
         <Route path="/project/:projectId/phase/2" element={<AnalyzeMaterials />} />
         <Route path="/project/:projectId/phase/3" element={<ResearchStart />} />
-        {/* Phases 4-7 map to existing or new pages */}
+        <Route path="/project/:projectId/phase/4" element={<CampaignSetup />} />
+        <Route path="/project/:projectId/phase/5" element={<GenerateCopy />} />
+        <Route path="/project/:projectId/phase/6" element={<ImagePrompts />} />
+        <Route path="/project/:projectId/phase/7" element={<GenerateAssets />} />
       </Routes>
     </BrowserRouter>
   );

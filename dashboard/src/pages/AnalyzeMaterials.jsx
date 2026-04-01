@@ -65,16 +65,24 @@ export default function AnalyzeMaterials() {
 
           <div className="action-card">
             <p>Ready to analyze your materials and extract key insights?</p>
-            <button
-              className="btn-primary"
-              onClick={handleAnalyze}
-              disabled={analyzing}
-            >
-              {analyzing ? <>
-                <span className="spinner"></span>
-                Analyzing...
-              </> : '▶ Start Analysis'}
-            </button>
+            <div style={{ display: 'flex', gap: '12px' }}>
+              <button
+                className="btn-primary"
+                onClick={handleAnalyze}
+                disabled={analyzing}
+              >
+                {analyzing ? <>
+                  <span className="spinner"></span>
+                  Analyzing...
+                </> : '▶ Start Analysis'}
+              </button>
+              <button
+                className="btn-secondary"
+                onClick={handleSkip}
+              >
+                Skip to Campaign →
+              </button>
+            </div>
           </div>
 
           <div className="info-section">

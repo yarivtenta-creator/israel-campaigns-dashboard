@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
+import axiosInstance from '../config/axiosConfig';
 import '../styles/Materials.css';
 
 export default function AddMaterials() {
@@ -47,13 +48,21 @@ export default function AddMaterials() {
     setError('');
 
     try {
-      const response = await axios.post(`/api/materials/${projectId}/scrape`, {
+      console.log('Scraping URL:', urlInput);
+      const response = await axiosInstance.post(`/api/materials/${projectId}/scrape`, {
         url: urlInput
       });
 
-      setMaterials([...materials, response.data]);
+      console.log('Scrape response:', response.data);
+      const newMaterial = {
+        ...response.data,
+        type: 'url'
+      };
+      setMaterials([...materials, newMaterial]);
       setUrlInput('');
+      console.log('URL scraped successfully');
     } catch (err) {
+      console.error('Scrape error:', err);
       setError(`Failed to scrape URL: ${err.response?.data?.error || err.message}`);
     } finally {
       setLoading(false);
@@ -71,7 +80,7 @@ export default function AddMaterials() {
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await axios.post(`/api/materials/${projectId}/upload`, formData);
+      const response = await axiosInstance.post(`/api/materials/${projectId}/upload`, formData);
 
       setMaterials([...materials, response.data]);
       setFileInput(null);
